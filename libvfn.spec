@@ -92,7 +92,7 @@ Dokumentacja API biblioteki libvfn.
 %build
 %meson build \
 	%{!?with_static_libs:--default-library=shared} \
-	%{!?with_apidocs:-Ddocs=false}
+	%{!?with_apidocs:-Ddocs=disabled}
 
 %ninja_build -C build
 
