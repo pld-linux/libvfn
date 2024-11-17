@@ -17,9 +17,11 @@ URL:		https://github.com/SamsungDS/libvfn
 BuildRequires:	gcc >= 6:4.7
 # for examples
 BuildRequires:	libnvme-devel >= 1.0
+BuildRequires:	linux-libc-headers >= 7:6.6
 BuildRequires:	meson >= 0.59.0
 BuildRequires:	ninja >= 1.5
 BuildRequires:	perl-base
+BuildRequires:	pkgconfig
 BuildRequires:	rpm-build >= 4.6
 BuildRequires:	rpmbuild(macros) >= 1.736
 %{?with_apidocs:BuildRequires:	sphinx-pdg}
