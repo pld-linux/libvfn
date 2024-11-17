@@ -22,7 +22,7 @@ BuildRequires:	ninja >= 1.5
 BuildRequires:	perl-base
 BuildRequires:	rpm-build >= 4.6
 BuildRequires:	rpmbuild(macros) >= 1.736
-%{?with_apidocs:BuildRequires:	sphinx-build}
+%{?with_apidocs:BuildRequires:	sphinx-pdg}
 ExclusiveArch:	%{x8664} aarch64
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
